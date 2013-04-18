@@ -4,14 +4,14 @@ using KX.Core.Observables;
 
 namespace Sample.Core.ViewModels
 {    
-    public class FirstScreenVm : IInitialize
+    public class FirstScreenVm : IKXReady
     {
         public KXObservable<string> Title { get; set; }
         public KXObservable<string> Blurb { get; set; }        
         public KXObservable<int> CompanionCount { get; set; }
         public KXNavigate Navigator { get; set; }
     
-        public void Init()
+        public void Ready()
         {
             Title.Set("Title");
 

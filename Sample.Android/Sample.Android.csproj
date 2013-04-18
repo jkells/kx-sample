@@ -78,17 +78,17 @@
     <TransformFile Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Sample.Core\Sample.Core.csproj">
-      <Project>{7932c2e0-37c5-407c-823c-e03236f46a75}</Project>
-      <Name>Sample.Core</Name>
+    <ProjectReference Include="..\Sample.Core\Sample.Core.Android.csproj">
+      <Project>{37784a0e-0a99-4659-91d0-da0e30d0cf69}</Project>
+      <Name>Sample.Core.Android</Name>
     </ProjectReference>
-    <ProjectReference Include="..\third-party\kx\KX.Android\KX.Android.csproj">
+    <ProjectReference Include="..\third-party\kx\KX.Core\KX.Core.Android.csproj">
+      <Project>{9f2bfe1f-eb5f-43d4-b3cf-b596d47440f6}</Project>
+      <Name>KX.Core.Android</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\third-party\kx\KX.Platform.Android\KX.Platform.Android.csproj">
       <Project>{59fca9b5-ae51-4029-aad5-8385e5c173fb}</Project>
-      <Name>KX.Android</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\third-party\kx\KX.Core\KX.Core.csproj">
-      <Project>{0b19d081-a8e1-49c5-b209-ac71be94cdbf}</Project>
-      <Name>KX.Core</Name>
+      <Name>KX.Platform.Android</Name>
     </ProjectReference>
     <ProjectReference Include="..\third-party\monodroid-samples\ActionBarSherlock\ActionBarSherlock\ActionBarSherlock.csproj">
       <Project>{2d5471b2-8255-4e47-97e9-eeb28678cc82}</Project>

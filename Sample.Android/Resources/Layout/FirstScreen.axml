@@ -19,7 +19,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/title"
-                text="Title"
                 android:text="Sub Heading"
                 style="@style/H1" />
             <TextView
@@ -31,6 +30,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu urna nec urna venenatis facilisis. Cras non pellentesque lectus. Donec tincidunt, est ut dignissim scelerisque, dolor massa feugiat sem, a fringilla orci nulla at sapien. Duis dictum lorem sed nunc lobortis pulvinar. Quisque in posuere neque. Phasellus ligula lorem, imperdiet ornare tincidunt suscipit, interdum a nunc. Nam sollicitudin erat nec mi scelerisque ac cursus massa tempus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut id metus vel est pretium venenatis sit amet viverra sapien. Maecenas eu dui vitae arcu semper facilisis a et magna Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu urna nec urna venenatis facilisis. Cras non pellentesque lectus. Donec tincidunt, est ut dignissim scelerisque, dolor massa feugiat sem, a fringilla orci nulla at sapien. Duis dictum lorem sed nunc lobortis pulvinar. Quisque in posuere neque. Phasellus ligula lorem, imperdiet ornare tincidunt suscipit, interdum a nunc. Nam sollicitudin erat nec mi scelerisque ac cursus massa tempus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut id metus vel est pretium venenatis sit amet viverra sapien. Maecenas eu dui vitae arcu semper facilisis a et magna" />
+            <EditText
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/title" />
             <LinearLayout
                 android:id="@id/button_panel"
                 android:orientation="horizontal"
