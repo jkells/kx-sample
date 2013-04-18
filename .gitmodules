@@ -1,0 +1,6 @@
+[submodule "third-party/kx"]
+	path = third-party/kx
+	url = git://github.com/jkells/kx.git
+[submodule "third-party/monodroid-samples"]
+	path = third-party/monodroid-samples
+	url = git://github.com/xamarin/monodroid-samples.git
