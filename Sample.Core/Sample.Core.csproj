@@ -45,7 +45,7 @@
     <Compile Include="ViewModels\SampleScreen2.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\kx\KX.Core\KX.Core.csproj">
+    <ProjectReference Include="..\third-party\kx\KX.Core\KX.Core.csproj">
       <Project>{0B19D081-A8E1-49C5-B209-AC71BE94CDBF}</Project>
       <Name>KX.Core</Name>
     </ProjectReference>

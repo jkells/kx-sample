@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Core", "Sample.Core\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Android", "Sample.Android\Sample.Android.csproj", "{40C06D8E-49C6-4B33-99BF-11204705CDB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionBarSherlock", "third-party\monodroid-samples\ActionBarSherlock\ActionBarSherlock\ActionBarSherlock.csproj", "{2D5471B2-8255-4E47-97E9-EEB28678CC82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "third-party", "third-party", "{7E389F8C-8D74-421D-8B70-E2B89943EEC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,8 +37,17 @@ Global
 		{40C06D8E-49C6-4B33-99BF-11204705CDB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40C06D8E-49C6-4B33-99BF-11204705CDB4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{40C06D8E-49C6-4B33-99BF-11204705CDB4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2D5471B2-8255-4E47-97E9-EEB28678CC82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D5471B2-8255-4E47-97E9-EEB28678CC82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D5471B2-8255-4E47-97E9-EEB28678CC82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D5471B2-8255-4E47-97E9-EEB28678CC82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D5471B2-8255-4E47-97E9-EEB28678CC82} = {7E389F8C-8D74-421D-8B70-E2B89943EEC4}
+		{59FCA9B5-AE51-4029-AAD5-8385E5C173FB} = {7E389F8C-8D74-421D-8B70-E2B89943EEC4}
+		{0B19D081-A8E1-49C5-B209-AC71BE94CDBF} = {7E389F8C-8D74-421D-8B70-E2B89943EEC4}
 	EndGlobalSection
 EndGlobal
