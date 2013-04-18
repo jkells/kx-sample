@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scroll_panel"
+        android:layout_above="@+id/button_panel"
+        android:layout_alignParentTop="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent">
+            <TextView
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/title"
+                text="Title"
+                android:text="Sub Heading"
+                style="@style/H1" />
+            <TextView
+                android:id="@+id/blurb"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_below="@id/title"
+                android:layout_above="@+id/button_panel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu urna nec urna venenatis facilisis. Cras non pellentesque lectus. Donec tincidunt, est ut dignissim scelerisque, dolor massa feugiat sem, a fringilla orci nulla at sapien. Duis dictum lorem sed nunc lobortis pulvinar. Quisque in posuere neque. Phasellus ligula lorem, imperdiet ornare tincidunt suscipit, interdum a nunc. Nam sollicitudin erat nec mi scelerisque ac cursus massa tempus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut id metus vel est pretium venenatis sit amet viverra sapien. Maecenas eu dui vitae arcu semper facilisis a et magna Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu urna nec urna venenatis facilisis. Cras non pellentesque lectus. Donec tincidunt, est ut dignissim scelerisque, dolor massa feugiat sem, a fringilla orci nulla at sapien. Duis dictum lorem sed nunc lobortis pulvinar. Quisque in posuere neque. Phasellus ligula lorem, imperdiet ornare tincidunt suscipit, interdum a nunc. Nam sollicitudin erat nec mi scelerisque ac cursus massa tempus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut id metus vel est pretium venenatis sit amet viverra sapien. Maecenas eu dui vitae arcu semper facilisis a et magna" />
+            <LinearLayout
+                android:id="@id/button_panel"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    style="@style/Widget.Sherlock.ActionButton"
+                    android:id="@+id/button_left"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:text="Button Left" />
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="4dip"
+                    android:layout_marginTop="4dip"
+                    android:background="@drawable/abs__list_divider_holo_light" />
+                <Button
+                    style="@style/Widget.Sherlock.ActionButton"
+                    android:id="@+id/button_right"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:text="ButtonRight" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

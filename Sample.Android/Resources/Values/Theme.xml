@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="MyTheme" parent="Theme.Sherlock.Light">
+
+    <item name="actionBarStyle">@style/ActionBar</item>
+    <item name="android:actionBarStyle">@style/ActionBar</item>
+  </style>
+
+  <style name="ActionBar" parent="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+    <item name="background">@color/dark1</item>
+    <item name="android:background">@color/dark1</item>
+  </style>
+
+  <style name="MyTheme.NoTitlebar" parent="Theme.Sherlock.Light.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowFullscreen">true</item>
+  </style>
+</resources>
